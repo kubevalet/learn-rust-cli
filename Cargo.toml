@@ -1,0 +1,10 @@
+[package]
+name = "learn-rust-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.32", features = ["derive"] }
+libm = "0.2.11"
+murmur3 = "0.5.2"
+num-traits = "0.2.19"
